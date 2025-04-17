@@ -1,0 +1,88 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: black;
+  text-decoration: 0;
+}
+
+/* TRANSITION */
+
+a,
+.btn {
+  transition: all 150ms ease;
+}
+
+a:hover {
+  color: #ffffff; ;
+}
+
+/* HEADER */
+
+.header {
+  background:#fff2e8;
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+  padding:2px;
+}
+
+.header:hover {
+  cursor: default;
+}
+
+/* NAVIGATION */
+
+.nav-container {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 5px;
+  width: 60px;
+  height: 20px;
+  margin-top: 0;
+  line-height: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+li:nth-child(1) { background: #fff2e8; }
+li:nth-child(2) { background: #ff3f4c; }
+li:nth-child(3) { background: #ffc72e; }
+li:nth-child(4) { background: #61bd4f; }
+li:nth-child(5) { background: #5b94ff; }
+li:nth-child(6) { background: #a889ff; }
+
+.home { background:#fff2e8; }
+.design { background:#ff3f4c; }
+.video { background:#ffc72e; }
+.junk { background:#61bd4f; }
+.about { background:#5b94ff; }
+
+
